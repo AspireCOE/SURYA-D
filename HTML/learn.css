@@ -1,0 +1,39 @@
+/*external css*/ 
+h3{
+    color: blueviolet;
+}
+
+
+/*css selector*/
+  /*element selector*/
+h1{
+    color: aquamarine;
+}
+
+
+/*class selector*/
+.one{
+    color: rgb(134, 13, 13);
+}
+
+/*using ID ->if use id name in particular tag we cant use same id at no where in the HTML file*/
+/*id name should be unique in entire html file*/
+#two{
+    color: rgb(44, 44, 116);
+}
+
+
+/*universal selector (*)*/
+
+*{
+    color: rgb(198, 13, 13);
+}
+
+
+/*css box model done in html page*/
+
+/*display property*/
+
+/*diplay block
+diplay inline
+display inline block*/

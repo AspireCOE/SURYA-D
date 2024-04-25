@@ -1,0 +1,669 @@
+.main{
+    height: 109vmax;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+    height: 75px;
+    width: 200px;
+    
+}
+
+li{
+    list-style: none;
+    display: inline-block;    
+}
+
+.onclick{
+    color: black;
+    margin-right: 45px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+.sign{
+    margin-right: 50px;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    border-color: rgb(233, 17, 17);
+    color: antiquewhite;
+    align-items: center;
+    
+    
+}
+.signIn{
+    text-decoration: none;
+    color: rgb(187, 7, 7);
+}
+.userlogo{
+    height: 20px;
+    width: 20px;
+}
+.Entertainment{
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(238, 215, 215);
+     
+}
+.text{
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 50px;
+   margin-left: 150px;
+}
+.text button{
+    border-radius: 15px;
+    font-size: 15px;
+    color: rgb(223, 218, 218);
+    border-color: rgb(233, 40, 40);
+    padding: 12px;
+    background-color: black;
+    
+}
+.Entertainment img{
+    margin-right: 50px;
+    margin-top: 20px;
+    
+}
+
+.bill h2{
+    
+    display: flex;
+    justify-content: center;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    margin-right: 70px;
+}
+li button{
+    margin-left: 50px;
+    border-radius: 10px;
+    padding: 10px;
+    color: antiquewhite;
+    background-color: black;
+    border-color: rgb(233, 21, 21);
+}
+label{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+   
+}
+label input{
+    padding:15px;
+    height: 5px;
+    width: 300px;
+    border-radius: 15px;
+    border-color: rgb(233, 33, 33);
+}
+.pay{
+   
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.payButton{
+    
+    border-radius: 15px;
+    height: 35px;
+    width:200px ;
+    border-color: rgb(232, 26, 26);
+    background-color: black;
+    color: antiquewhite;
+}
+.offers{
+    margin-top: 45px;
+    background-color: red;
+    height:45px;
+    display: flex;
+    justify-content: center;
+}
+.offers p{
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.newConnection h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+}
+.newConnectList{
+    display: flex;
+    justify-content: center;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+.newConnectList p{
+    padding-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.newConnection button{
+    border-radius: 80px;
+    padding: 10px;
+   
+}
+.newConnect{
+    background-color: rgb(202, 196, 187);
+    
+    border-color: rgb(232, 49, 49);
+}
+.newConnectimg{
+    height: 40px;
+    width: 40px;
+}
+.getNewConnection {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.getNewConnectionArea{
+    height: 100px;
+    width: 650px;
+    background-color: red;
+    border-radius: 15px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+   
+}
+.getStarted{
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+
+
+.posterImg{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+   
+}
+.posterImg img{
+   margin-left: 80px;
+   border-radius: 20px;
+   
+   
+}
+
+  
+.posterImg h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    margin-left: 50px;
+}
+.posterImg p{
+    display: flex;
+    justify-content: center;
+    color: black;
+    margin-left: 60px;
+}
+.posterImg button{
+    margin-left: 270px;
+    border-radius: 20px;
+    background-color: black;
+    color: antiquewhite;
+    padding: 15px;
+    border-color: rgb(233, 40, 40);
+}
+.video h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(235, 39, 39);
+    margin-top: 70px;
+}
+.PlayVideo{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+
+}
+.PlayVideo video{
+    border-radius: 15px;
+}
+.plans{
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.plans h1{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.cards{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+.plans ul li{
+    display: flex;
+    
+}
+.cards div{
+    margin-left: 45px;
+}
+.cards div img{
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+}
+.cards a{
+    color: red;
+    display: flex;
+   justify-content: center;
+   margin-top: 15px;
+}
+.cards Button{
+    padding: 10px;
+   margin-left: 145px;
+   display: flex;
+   justify-content: center;
+}
+.PrepaidMain{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.PrepaidMain img{
+    height: 75px;
+    width: 200px;
+}
+.prepaidGetRecharge h1{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.prepaidGetMobileNum{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.prepaidGetRecharge label{
+    margin-left: 50px;
+}
+.prepaidPopularPlan{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.prepaidShowRechargeIPlans{
+   
+    height: 125px;
+    width: 1000px;
+    background-color: rgb(232, 186, 185);
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    border-radius: 15px;
+    padding: 25px;
+    margin-top: 50px;
+}
+.prepaidValdity{
+    margin-top: 20px;
+}
+.prepaidShowRechargeIPlans button{
+    padding: 10px;
+    border-radius: 15px;
+    width: 75px;
+    margin-top: 35px;
+    background-color: black;
+    color: antiquewhite;
+    border-color: rgb(233, 58, 58);
+}
+.PostpaidMain{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.AirlinkLogo{
+    height: 75px;
+    width: 200px;
+}
+.postpaidGetRecharge{
+    height: 380px;
+    width: 700px;
+    background-color: rgb(220, 223, 223);
+    margin: auto;
+    border-radius: 15px;
+    padding: 50px;
+    
+}
+.postpaidGetRechargeDetails h2{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.postpaidGetRechargeGetDetailsInput{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+}
+.postpaidGetRechargeGetDetails button{
+    padding: 10px;
+    border-radius: 15px;
+    background-color: black;
+    color: antiquewhite;
+    border-color: rgb(233, 50, 50);
+}
+.postpaidGetRechargeGetDetails{
+    color: red;
+}
+.PostpaidPlansTitle{
+    margin-left: 140px;
+    margin-top: 75px;
+}
+.PostpaidGetPlans{
+    display: flex;
+    justify-content: center;
+
+}
+.PostpaidShowPlans{
+    background-color: rgb(215, 222, 220);
+    height: 630px;
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 35px;
+    margin-top: 50px;
+    padding: 15px;
+}
+.PostpaidGetOTTLogo{
+    display: flex;
+    
+}
+
+.PostpaidGetOTTLogo img{
+    margin-top: 10px;
+}
+.PostpaidBuyPlays button{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+    margin-left: 150px;
+    border-radius: 15px;
+    border-color: rgb(233, 55, 55);
+    margin-top: 15px;
+    width: 60px;
+}
+.BroadbandMain{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.BroadbandMain h1{
+   margin-left: 100PX;
+}
+.BroadBandGetRecharge{
+    height: 200px;
+    width: 600px;
+    background-color: rgb(246, 247, 250);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 50px;
+}
+.BroadBandGetRechargeh3{
+    display: flex;
+    justify-content: center;
+}
+.BroadBandGetRechargebutton{
+    display: flex;
+    justify-content: center;
+
+}
+.BroadBandGetRechargebutton button{
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    border-color: rgb(233, 50, 50);
+    padding: 10px;
+    margin-top: 25px;
+}
+.BroadbandViewPlans1{
+    width: 400px;
+    height: 570px;
+    background-color: rgb(203, 212, 209);
+    border-radius: 15px;
+}
+.BroadbandShowPlans h2{
+    margin-left: 130px;
+}
+.BroadbandViewPlans1 img{
+   border-radius: 15px;
+}
+.BroadbandPaybutton{
+    display: flex;
+    justify-content: space-between;
+}
+.BroadbandPaybutton button{
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    border-color: rgb(233, 50, 50);
+    padding: 10px;
+    height: 35px;
+    margin-top: 10px;
+}
+.BroadbandGetPlanDetails{
+    padding: 15px;
+}
+.BroadbandViewPlans{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+   
+}
+.BroadbandViewPlans1{
+    margin-left: 25px;
+}
+.DTHMain{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.DTHMain h1{
+   margin-left: 100PX;
+}
+.DTHGetRecharge{
+    height: 200px;
+    width: 600px;
+    background-color: rgb(246, 247, 250);
+    border-radius: 15px;
+    margin: auto;
+    margin-top: 50px;
+}
+.DTHGetRechargeh3{
+    display: flex;
+    justify-content: center;
+}
+.DTHGetRechargebutton{
+    display: flex;
+    justify-content: center;
+
+}
+.DTHGetRechargebutton button{
+    border-radius: 20px;
+    background-color: black;
+    color:white;
+    border-color: rgb(233, 50, 50);
+    padding: 10px;
+    margin-top: 25px;
+}
+.SignInMain{
+    background-color: rgb(228, 233, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 109vh;
+    padding: 20px;
+}
+.SignInGetValue{
+    height: 300px;
+    width: 600px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 2px 2px 15px;
+}
+.SignInGetValue{
+    margin: auto;
+}
+.SignInGetValue h2{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+.signinTitle{
+    display: flex;
+    justify-content: center;
+}
+.signinButton{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    
+}
+.signinButton button{
+    padding: 10px;
+    background-color: black;
+    color: antiquewhite;
+    border-radius: 15px;
+    border-color: rgb(233, 27, 27);
+}
+
+.NewConnectionPrePaidDashboardLeft{
+    height: 650px;
+    width: 500px;
+    background-color: rgb(222, 230, 229);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.NewConnectionPrePaidImage img{
+    border-radius: 100%;
+    height: 250px;
+    width: 250px;
+    
+    
+}
+.NewConnectionPrePaidImageContainer{
+  padding-top: 40px;
+  padding-left: 110px;
+  
+}
+.NewConnectionPrePaidImageDetails h1{
+    color: rgb(20, 20, 19);
+    padding: 20px;
+    padding-left: 100px;
+}
+.NewConnectionPrePaidDashboardLeftDetais{
+    color: rgb(15, 14, 13);
+    padding-left: 150px;
+    padding-top: 20px;
+}
+.NewConnectionPrePaidDashboardRight{
+    background-color: rgb(232, 238, 235);
+    height: 650px;
+    width: 1000px;
+}
+.NewConnectionPrePaidDashboard{
+    display: flex;
+    justify-content: center;
+    
+}
+.NewConnectionPrePaidDashboardRightGetDetails{
+    height: 750px;
+    width: 860px;
+    
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+}
+.NCpreTitle{
+    display: flex;
+    justify-content: center;
+}
+.NCpreSubmit{
+    padding: 10px;
+    width: 100px;
+    margin-left: 380px;
+    background-color: rgb(197, 200, 199);
+    margin-top: 25px;
+}
+.NCpostContainer1Left{
+    height: 300px;
+    width: 800px;
+    background-color: rgb(188, 34, 34);
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.NCpostContainer1Left h1{
+    padding: 70px;
+    color: rgb(253, 172, 9);
+}
+.NCpostContainer1Right h1{
+    padding: 70px;
+    color: rgb(229, 43, 33);
+}
+.NCpostContainer1{
+    display: flex;
+    justify-content: center;
+}
+.NCpostContainer2Left h1{
+    padding: 70px;
+    color: rgb(233, 68, 22);
+}
+.NCpostContainer1Right{
+    height: 300px;
+    width: 800px;
+    background-color: rgb(244, 247, 248);
+    display: flex;
+    justify-content: center;
+   
+}
+.NCpostContainer2Left{
+    height: 300px;
+    width: 800px;
+    background-color: rgb(249, 244, 244);
+    display: flex;
+    justify-content: center;
+    
+   
+}
+.NCpostContainer2Right h1{
+    padding: 70px;
+    color: rgb(230, 174, 20);
+}
+.NCpostContainer2Right{
+    height: 300px;
+    width: 800px;
+    background-color: rgb(188, 34, 34);
+    display: flex;
+    justify-content: center;
+   
+}
+.NCpostContainer2Right img{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.NCpostContainer2{
+    display: flex;
+    justify-content: center;
+}
+
